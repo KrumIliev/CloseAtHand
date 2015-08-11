@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="min_search_radius">500</integer>
+    <integer name="def_search_radius">1000</integer>
+    <integer name="max_search_radius">5000</integer>
+    <integer name="favorite_add">1</integer>
+    <integer name="favorite_remove">0</integer>
+    <bool name="isTablet">false</bool>
+</resources>

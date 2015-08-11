@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.close.at.hand.app.settings.SelectRangePreference
+        android:key="@string/pref_radius_key"
+        android:title="@string/pref_radius_label" />
+
+    <ListPreference
+        android:defaultValue="@string/type_all"
+        android:entries="@array/pref_types"
+        android:entryValues="@array/pref_types_values"
+        android:key="@string/pref_types_key"
+        android:title="@string/pref_types_title" />
+
+</PreferenceScreen>

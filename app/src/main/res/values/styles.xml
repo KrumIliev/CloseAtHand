@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:itemBackground">@drawable/touch_selector_menu</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/app_primary_color</item>
+    </style>
+
+    <!-- Main activity theme -->
+    <style name="MainActivityTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/LogoActionBar</item>
+    </style>
+
+    <style name="LogoActionBar" parent="MyActionBar">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+    <style name="CustomListStile"></style>
+
+</resources>

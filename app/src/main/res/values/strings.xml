@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Close At Hand</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="action_share" translatable="false">Share</string>
+    <string name="action_map" translatable="false">Map</string>
+    <string name="action_favor" translatable="false">Show Favorites</string>
+    <string name="action_places" translatable="false">Hide Favorites</string>
+    <string name="action_bookmark" translatable="false">Bookmark</string>
+    <string name="pref_radius_label">Search Radius</string>
+    <string name="pref_radius_key" translatable="false">radius</string>
+    <string name="pref_radius_def" translatable="false">1000</string>
+    <string name="pref_radius_summary">Current radius is </string>
+    <string name="pref_lat">latitude</string>
+    <string name="pref_lng">longitude</string>
+    <string name="pref_types_key">types</string>
+    <string name="pref_types_title">Place types</string>
+    <string name="content_authority">com.close.at.hand.app</string>
+    <string name="m_no_connection">No network connection</string>
+
+    <string name="type_all">all</string>
+    <string-array name="types_all_values">
+        <item>bar</item>
+        <item>cafe</item>
+        <item>night_club</item>
+        <item>restaurant</item>
+    </string-array>
+    <string-array name="pref_types_values">
+        <item>all</item>
+        <item>bar</item>
+        <item>cafe</item>
+        <item>night_club</item>
+        <item>restaurant</item>
+    </string-array>
+    <string-array name="pref_types">
+        <item>All</item>
+        <item>Bar</item>
+        <item>Cafe</item>
+        <item>Night Club</item>
+        <item>Restaurant</item>
+    </string-array>
+
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_favorites">Favorites</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve">MAPS_KEY</string>
+    <string name="places_api_key" templateMergeStrategy="preserve">PLACES_KEY</string>
+
+</resources>
